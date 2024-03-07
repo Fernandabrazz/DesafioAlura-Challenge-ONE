@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+
+  --cor-primaria:#bbbab8bd ;
+  --cor-secundaria:rgba(10, 56, 113, 1) ;
+  --cor-terciaria:linear-gradient(0deg, #D8DFE8, #D8DFE8) ;
+  --cor-quartenaria:#495057;
+  --cor-quinternaria: #adb1b4;
+
+  --font-unica:'inter',sans-serif; 
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+ *{
+box-sizing: content-box;
+background:var(--cor-primaria);
+font-family: var( --font-unica);
+font-weight: 400;
+font-size: 1rem;
+line-height: 150%;
+}
+
+
+.LogoAlura { 
+margin-left: 40px;
+padding-top: 40px;
+width: 120px;
+height: 48px;
+gap: 40px;
+
+}
+.titulo{
+  font-size: 1.5rem;
+  font-family: var( --font-unica);
+  font-weight: 400;
+  font-weight: bold;
+  line-height: 150%;
+  color: var(--cor-secundaria);
+  
+padding: 2% 0%  0% 10%;
+}
+
+main {
+display: flex;
+margin-bottom: 50px;
+margin-left: 80px;
+gap: 40px;
+}
+
+.inicio{
+  padding: 4%;
+}
+.text-area {
+  
+display: flex;
+width: 90%;
+border: transparent;
+margin-top: 80px;
+text-transform: lowercase;
+
+}
+
+::placeholder {  
+color: var(--cor-secundaria);
+}
+.text-area:focus{
+outline: none;
+}
+
+
+.botoes {
+display: flex;
+margin-top: px;
+padding: 26% 0%  50% 0%;
+font-size: 2rem;
+
+}
+
+.btn-desencriptografar{
+border: 2px solid var(--cor-secundaria);
+border-radius: 24px;
+cursor:pointer;
+height: 50px;
+margin-left: auto;
+width: 180px;
+background:var( --cor-terciaria);
+color: black;
+font-size: 1rem;
+gap: 24px;
+}
+
+
+.btn-encriptografar{
+  background: var( --cor-terciaria);
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 24px;
+  color: black;
+  cursor:pointer;
+  height: 50px;
+  width: 180px;;
+  border-radius: 24px;
+  gap: 24px;
+  margin-left: auto;
+       
+  }
+
+  .transforma{
+    padding:1% 0% 0% 2%;
+  }
+  .mensagem{
+    background: var( --cor-quinternaria);
+   color: var(--cor-secundaria);
+    margin-top: 1px; 
+    padding-left: 15px;
+    position: relative; 
+    width: 300px;
+    height: 250px;
+    margin-top:px; 
+    left: 90px;
+    border-radius:32px;
+    gap: 8px;
+    }
+    
+    .mensagem{
+    
+      font-family: var(--font-unica);
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+      border:var(--cor-quartenaria);
+       }
+    
+    .textoCopiar{
+      padding-top: 100px;
+    }
+    .textoCopiar{
+    
+    width:40%;
+    height: 800px;
+    top: 50px;
+    left: 900px;
+    
+    }
+    
+    .textoCopiar:focus{
+      outline:none;
+    
+    }
+
+.btn-copiar{
+  background: var( --cor-terciaria);
+  border: 2px solid var(--cor-secundaria);
+  border-radius: 24px;
+  
+  color: black;
+  cursor:pointer;
+  height: 30px;
+  right:15px;
+  top: 5px;
+  width: 180px;
+  margin-bottom: -15px ;
+  position:relative;
+  transform: translateX(-50%); 
+  
+}
+
+  
+.informacao{
+
+color:var(--cor-quartenaria);
+width: 252px;
+height: 18px;
+top: 851px;
+left: 240px;
+gap: 8px;
+
+}
+      
+.font-informacao{
+
+width: 228px;
+height: 18px;
+opacity: 0.8px;
+
+}
+.text-informacao{
+
+font-family:  --font-unica;
+font-size: 0.5rem;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+width: 228px;
+opacity: 0.8px;
+
+}
+
+.rodape{
+  color: var(--cor-secundaria) ;
+  background-color:var(--cor-hover) ;
+  padding: 24px;
+  text-align: center;
+  font-family: var (--font-unica);
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-weight: bold;
+}
+@media (max-width: 1200px) 
+
+
+ {
+  
+  .LogoAlura {
+      margin-left: 1rem;
+      padding-top: 1rem;
+      width: 7rem;
+      height: 3rem;
+      gap: 1rem;
+  }
+
+  main {
+      margin-left: 1rem;
+  }
+
+  main {
+    flex-direction: column; /* Altera a direção do flex para uma pilha vertical */
+    justify-content: center; /* Centraliza os itens na tela */
+}
+ 
+.text-area {
+  width: 80%;
+  padding: 1rem;
+}
+
+  .botoes 
+ 
+  {
+       flex-direction:column;
+      align-items: center;
+      margin-top: 3%;
+  }
+
+  .btn-desencriptografar,
+  .btn-encriptografar
+  
+  {
+      width: 60%;
+      margin: 1rem 0;
+  } 
+
+  .informacao {
+      width: 1rem;
+      margin-left: 1rem;
+      margin-top: 2%;
+      gap: 0.5rem;
+  }
+
+
+
+.textoCopiar {
+  width: 80%;
+  margin-left: 0;
+}
+
+.mensagem{
+  width:80%;
+  left: 1.5rem;
+  
+  gap:0;
+}
+.btn-copiar
+{
+  width: 40%;
+  margin: 2rem 0;
+  left: 5rem;
+} 
+ }
+
+ 

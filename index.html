@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+<title>Decodificador</title>
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <header >
+        <img class="LogoAlura"  src="./Assets/Logo.png" alt="Logo da Alura" ></section>
+
+        <h1 class = "titulo">Desafio Alura: Decodificador</h1>
+    </header>
+
+<main class="tela_inicio">
+   <section  class=" inicio">
+        <textarea class="Text-area"  cols = "41" rows="4" placeholder="Digite seu texto"></textarea>
+
+
+     <div class="informacao">
+        
+        <p class="text-informacao"> Apenas letras minúsculas e sem acento.</p>
+     </div>
+        <div class="botoes">
+            <button class="btn-encriptografar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="btn-desencriptografar"  onclick="btnDesencriptar()">Descriptografar</button>
+         </div>
+
+     </section>
+
+   <section class="transforma">
+    
+   
+   <textarea id="textoCopiar" class="mensagem" cols="20" rows="10" placeholder=""> Nenhuma mensagem</textarea>
+   
+   <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+
+
+
+ </section>
+
+
+
+
+</main>
+
+<footer class="rodape">
+    Desenvolvido por Fernanda Braz
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
